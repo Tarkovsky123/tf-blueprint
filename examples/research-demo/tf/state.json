@@ -1,0 +1,328 @@
+{
+  "version": 2,
+  "name": "가상소재 커버리지 개시",
+  "mode": "research",
+  "lead": "대표",
+  "start": "2026-11-02",
+  "deadline": "2026-11-20",
+  "closed": null,
+  "stages": [
+    {
+      "id": 0,
+      "name": "착수",
+      "start": "2026-11-02",
+      "end": "2026-11-04",
+      "gate": {
+        "id": "G0",
+        "name": "TF 헌장 승인",
+        "status": "approved",
+        "requested": null,
+        "decided": "2026-11-02",
+        "quote": "좋습니다, 시작하죠",
+        "note": ""
+      }
+    },
+    {
+      "id": 1,
+      "name": "기업·산업 이해",
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "gate": {
+        "id": "G1",
+        "name": "논지 가설",
+        "status": "open",
+        "requested": null,
+        "decided": null,
+        "quote": "",
+        "note": ""
+      }
+    },
+    {
+      "id": 2,
+      "name": "모델·검증",
+      "start": "2026-11-08",
+      "end": "2026-11-13",
+      "gate": {
+        "id": "G2",
+        "name": "모델 리뷰",
+        "status": "open",
+        "requested": null,
+        "decided": null,
+        "quote": "",
+        "note": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "리포트·심의",
+      "start": "2026-11-14",
+      "end": "2026-11-18",
+      "gate": {
+        "id": "G3",
+        "name": "발간 심의",
+        "status": "open",
+        "requested": null,
+        "decided": null,
+        "quote": "",
+        "note": ""
+      }
+    },
+    {
+      "id": 4,
+      "name": "발간·사후관리",
+      "start": "2026-11-19",
+      "end": "2026-11-20",
+      "gate": {
+        "id": "G4",
+        "name": "발간 완료",
+        "status": "open",
+        "requested": null,
+        "decided": null,
+        "quote": "",
+        "note": ""
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T01",
+      "title": "TF 헌장 작성(대상·질문·기준 시점·독자)",
+      "stage": 0,
+      "owner": "ai",
+      "due": "2026-11-04",
+      "status": "done",
+      "done": "2026-11-02",
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T02",
+      "title": "자료 요청 목록(공시·IR·업계 자료)",
+      "stage": 0,
+      "owner": "ai",
+      "due": "2026-11-04",
+      "status": "done",
+      "done": "2026-11-02",
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T03",
+      "title": "레드팀 관점 3개 정하기",
+      "stage": 0,
+      "owner": "ai",
+      "due": "2026-11-04",
+      "status": "done",
+      "done": "2026-11-02",
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T04",
+      "title": "사업 구조·매출 구성(공시 원문)",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-07",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T05",
+      "title": "핵심 변수 트리",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-07",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T06",
+      "title": "시장 기대(컨센서스) 정리",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-07",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T07",
+      "title": "논지 기둥을 가설로 등록(hyp add)",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-07",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T08",
+      "title": "재무 추정 모델(코드나 시트)",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-13",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T09",
+      "title": "시나리오(낙관·기준·비관)",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-13",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T10",
+      "title": "공시 원문과 숫자 대조",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-13",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T11",
+      "title": "핵심 가정 점검",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-13",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T12",
+      "title": "사전 부검",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-13",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T13",
+      "title": "리포트 작성",
+      "stage": 3,
+      "owner": "ai",
+      "due": "2026-11-18",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T14",
+      "title": "출처·숫자 점검(tf.py check --final)",
+      "stage": 3,
+      "owner": "ai",
+      "due": "2026-11-18",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T15",
+      "title": "반대 논리 레드팀(work/redteam.md)",
+      "stage": 3,
+      "owner": "ai",
+      "due": "2026-11-18",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T16",
+      "title": "이해상충·미공개정보·고지 확인",
+      "stage": 3,
+      "owner": "ai",
+      "due": "2026-11-18",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T17",
+      "title": "발간",
+      "stage": 4,
+      "owner": "ai",
+      "due": "2026-11-20",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T18",
+      "title": "촉매 일정 등록(event add)과 논지 점검 주기",
+      "stage": 4,
+      "owner": "ai",
+      "due": "2026-11-20",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T19",
+      "title": "회고(tf.py close)",
+      "stage": 4,
+      "owner": "ai",
+      "due": "2026-11-20",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D01",
+      "date": "2026-11-02",
+      "text": "G0 TF 헌장 승인 승인",
+      "why": "",
+      "quote": "좋습니다, 시작하죠"
+    }
+  ],
+  "raid": [],
+  "needs": [],
+  "hyps": [
+    {
+      "id": "H01",
+      "text": "고객사 증설 물량이 단가 하락을 상쇄한다",
+      "status": "open",
+      "date": "2026-11-02",
+      "note": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "E01",
+      "date": "2027-02-10",
+      "text": "4분기 실적 발표(물량 회복 첫 확인)",
+      "status": "open",
+      "note": ""
+    }
+  ],
+  "log": [],
+  "updated": "2026-11-02"
+}

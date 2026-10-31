@@ -1,0 +1,9 @@
+id,title,publisher,date,url,locator,status,checked,note
+S1,가상 출처 1,가상,2026,https://example.com/s1,3쪽 표1,✅,2026-11-01,
+S2,가상 출처 2,가상,2026,https://example.com/s2,12쪽 표3,✅,2026-11-01,
+S3,가상 출처 3,가상,2026,https://example.com/s3,45쪽,✅,2026-11-01,
+S4,가상 출처 4,가상,2026,https://example.com/s4,2문단,⚠️,2026-11-01,단일 출처
+S5,가상 출처 5,가상,2026,https://example.com/s5,3문단,⚠️,2026-11-01,단일 출처
+S6,가상 출처 6,가상,2026,https://example.com/s6,1쪽,✅,2026-11-01,
+S7,가상 출처 7 (미확인),가상,2026,https://example.com/s7,,❓,,미확인
+S8,가상 출처 8 (위치 없음),가상,2026,https://example.com/s8,,✅,2026-11-01,쪽·표 위치 없음

@@ -1,0 +1,4 @@
+work/final/report.md:5 [경고] CALC_NOFILE [추정]이 어느 파일에서 나왔는지 적기 — 예: [추정: work/model.py]
+work/final/report.md:13 [오류] SRC_UNVERIFIED S3가 ❓미확인 상태
+work/final/report.md:25 [경고] HEDGE '아마' — 확률 표현(가능성 높음 등)으로 바꾸기
+점검 결과: 오류 1 · 경고 2

@@ -1,0 +1,8 @@
+id,title,publisher,date,url,locator,status,checked,note
+S1,가상 출처 1 (내부 판매 데이터),가상,2026,https://example.com/s1,시트2 A1:F40,✅,2026-11-01,
+S2,가상 출처 2 (업계 통계),가상,2026,https://example.com/s2,12쪽 표3,✅,2026-11-01,
+S3,가상 출처 3 (공시),가상,2026,https://example.com/s3,사업보고서 45쪽,✅,2026-11-01,
+S4,가상 출처 4 (고객사 발표),가상,2026,https://example.com/s4,보도자료 2문단,⚠️,2026-11-01,단일 출처
+S5,가상 출처 5 (보도),가상,2026,https://example.com/s5,기사 3문단,⚠️,2026-11-01,단일 출처
+S6,가상 출처 6 (규제 기관),가상,2026,https://example.com/s6,공고 1쪽,✅,2026-11-01,
+S7,가상 출처 7 (확인 안 된 블로그),가상,2026,https://example.com/s7,,❓,,미확인

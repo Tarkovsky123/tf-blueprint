@@ -1,0 +1,411 @@
+{
+  "version": 2,
+  "name": "가상 인화지 유통사 거래처 유지 전략",
+  "mode": "consulting",
+  "lead": "대표",
+  "start": "2026-11-02",
+  "deadline": "2026-11-13",
+  "closed": null,
+  "stages": [
+    {
+      "id": 0,
+      "name": "착수",
+      "start": "2026-11-02",
+      "end": "2026-11-03",
+      "gate": {
+        "id": "G0",
+        "name": "TF 헌장 승인",
+        "status": "approved",
+        "requested": null,
+        "decided": "2026-11-02",
+        "quote": "헌장 이대로 갑시다",
+        "note": ""
+      }
+    },
+    {
+      "id": 1,
+      "name": "진단",
+      "start": "2026-11-04",
+      "end": "2026-11-05",
+      "gate": {
+        "id": "G1",
+        "name": "문제 정의·핵심 가설",
+        "status": "open",
+        "requested": null,
+        "decided": null,
+        "quote": "",
+        "note": ""
+      }
+    },
+    {
+      "id": 2,
+      "name": "분석",
+      "start": "2026-11-06",
+      "end": "2026-11-09",
+      "gate": {
+        "id": "G2",
+        "name": "스토리라인(채운 고스트 덱)",
+        "status": "open",
+        "requested": null,
+        "decided": null,
+        "quote": "",
+        "note": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "작성·QA",
+      "start": "2026-11-10",
+      "end": "2026-11-12",
+      "gate": {
+        "id": "G3",
+        "name": "최종본",
+        "status": "open",
+        "requested": null,
+        "decided": null,
+        "quote": "",
+        "note": ""
+      }
+    },
+    {
+      "id": 4,
+      "name": "버퍼·전달",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "gate": {
+        "id": "G4",
+        "name": "전달 완료",
+        "status": "open",
+        "requested": null,
+        "decided": null,
+        "quote": "",
+        "note": ""
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T01",
+      "title": "TF 헌장 작성(인터뷰)",
+      "stage": 0,
+      "owner": "ai",
+      "due": "2026-11-03",
+      "status": "done",
+      "done": "2026-11-02",
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T02",
+      "title": "자료 요청 목록 작성",
+      "stage": 0,
+      "owner": "ai",
+      "due": "2026-11-03",
+      "status": "done",
+      "done": "2026-11-02",
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T03",
+      "title": "레드팀 관점 3개 정하기",
+      "stage": 0,
+      "owner": "ai",
+      "due": "2026-11-03",
+      "status": "done",
+      "done": "2026-11-02",
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T04",
+      "title": "SCQA 문제 정의",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-05",
+      "status": "done",
+      "done": "2026-11-04",
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T05",
+      "title": "이슈트리(MECE)와 가설 등록(hyp add)",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-05",
+      "status": "done",
+      "done": "2026-11-04",
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T06",
+      "title": "Day-1 가설과 검증 방법",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-05",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T07",
+      "title": "고스트 덱 초안(헤드라인만)",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-05",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T08",
+      "title": "우선순위·가지치기",
+      "stage": 1,
+      "owner": "ai",
+      "due": "2026-11-05",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T09",
+      "title": "가설별 워크플랜(task add --hyp)",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-09",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T10",
+      "title": "자료 수집·출처 기록",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-09",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T11",
+      "title": "핵심 분석(숫자는 코드로)",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-09",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T12",
+      "title": "사전 부검",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-09",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T13",
+      "title": "고스트 덱을 분석 결과로 채우기",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-09",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T14",
+      "title": "본문 작성",
+      "stage": 3,
+      "owner": "ai",
+      "due": "2026-11-12",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T15",
+      "title": "출처·숫자 점검(tf.py check --final)",
+      "stage": 3,
+      "owner": "ai",
+      "due": "2026-11-12",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T16",
+      "title": "레드팀 3관점 리뷰(work/redteam.md)",
+      "stage": 3,
+      "owner": "ai",
+      "due": "2026-11-12",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T17",
+      "title": "지적 반영",
+      "stage": 3,
+      "owner": "ai",
+      "due": "2026-11-12",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T18",
+      "title": "최종 확인·전달",
+      "stage": 4,
+      "owner": "ai",
+      "due": "2026-11-13",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T19",
+      "title": "회고(tf.py close)",
+      "stage": 4,
+      "owner": "ai",
+      "due": "2026-11-13",
+      "status": "open",
+      "done": null,
+      "hyp": null,
+      "note": ""
+    },
+    {
+      "id": "T20",
+      "title": "주문 간격과 이후 구매 감소의 관계 분석",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-09",
+      "status": "open",
+      "done": null,
+      "hyp": "H01",
+      "note": ""
+    },
+    {
+      "id": "T21",
+      "title": "방문 거래처와 미방문 거래처의 재주문 비교 설계",
+      "stage": 2,
+      "owner": "ai",
+      "due": "2026-11-09",
+      "status": "open",
+      "done": null,
+      "hyp": "H02",
+      "note": ""
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D01",
+      "date": "2026-11-02",
+      "text": "G0 TF 헌장 승인 승인",
+      "why": "",
+      "quote": "헌장 이대로 갑시다"
+    },
+    {
+      "id": "D02",
+      "date": "2026-11-04",
+      "text": "신규 확보보다 상위 거래처 유지부터 다룬다",
+      "why": "상위 거래처가 매출의 대부분을 차지(가상 데이터)",
+      "quote": "유지 먼저 봅시다"
+    }
+  ],
+  "raid": [
+    {
+      "id": "R01",
+      "kind": "dependency",
+      "text": "거래처 매출 파일이 늦게 오면 진단이 하루 밀린다",
+      "level": "high",
+      "owner": "lead",
+      "status": "open",
+      "date": "2026-11-04",
+      "note": ""
+    },
+    {
+      "id": "R02",
+      "kind": "assumption",
+      "text": "재주문 간격 45일 초과를 이탈 신호로 본다",
+      "level": "mid",
+      "owner": "ai",
+      "status": "open",
+      "date": "2026-11-04",
+      "note": ""
+    }
+  ],
+  "needs": [
+    {
+      "id": "N01",
+      "what": "거래처별 월 매출 파일(최근 24개월)",
+      "from": "lead",
+      "why": "매출 집중도·재주문 주기 계산",
+      "status": "open",
+      "date": "2026-11-02",
+      "done": null,
+      "note": ""
+    },
+    {
+      "id": "N02",
+      "what": "업계 출하량 공개 통계",
+      "from": "ai",
+      "why": "시장 추세와 비교",
+      "status": "open",
+      "date": "2026-11-02",
+      "done": null,
+      "note": ""
+    }
+  ],
+  "hyps": [
+    {
+      "id": "H01",
+      "text": "재주문 간격이 평소보다 길어진 상위 거래처가 이탈 위험이 높다",
+      "status": "open",
+      "date": "2026-11-04",
+      "note": ""
+    },
+    {
+      "id": "H02",
+      "text": "이탈 위험 거래처에 먼저 방문하면 재주문이 회복된다",
+      "status": "open",
+      "date": "2026-11-04",
+      "note": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "E01",
+      "date": "2026-11-09",
+      "text": "대표 중간보고(스토리라인 초안)",
+      "status": "open",
+      "note": ""
+    }
+  ],
+  "log": [
+    {
+      "date": "2026-11-04",
+      "text": "SCQA·이슈트리 끝, 가설 2개 등록 / 대표: 거래처 매출 파일 전달 / 다음: Day-1 가설 검증 방법"
+    }
+  ],
+  "updated": "2026-11-04"
+}
